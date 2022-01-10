@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-image: url(images/donate.jpg);
+      background-size: cover;
+    }
+    ul li {
+      display: inline-block;
+    }
+    ul {
+      padding: 0;
+      list-style-type: none;
+      /* background-color: rgb(25, 25, 102); */
+    }
+    nav {
+      text-align: right;
+    }
+
+    ul li a {
+      display: block;
+      padding: 10px 45px;
+      color: rgb(19, 32, 44);
+      text-decoration: none;
+    }
+    ul li a:hover {
+      color: black;
+      background: #b4d1f5;
+    }
+    .headtxt {
+      left: 20px;
+      color: rgb(10, 4, 26);
+      position: absolute;
+      margin-left: 1rem;
+    }
+    div {
+      margin-top: 15%;
+      /* text-align: center; */
+      margin-left: -10%;
+    }
+  </style>
+  <body>
+    <nav>
+      <h2 class="headtxt">Sparks Donation</h2>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+    </nav>
+    <div>
+      <form style="margin-left: 70px" align="center">
+        <script
+          src="https://checkout.razorpay.com/v1/payment-button.js"
+          data-payment_button_id="pl_GKnBOm86Dj4wZY"
+        ></script>
+      </form>
+    </div>
+  </body>
+</html>
